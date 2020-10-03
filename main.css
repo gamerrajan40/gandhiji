@@ -1,0 +1,100 @@
+html {
+  margin: 0px 25px 0px 25px;
+  font-size: 1.25em;
+}
+
+h1 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header {
+  align-self: flex-start;
+  display: flex;
+  width: 100%;
+  height: 30%;
+}
+
+.headertext {
+  width: 50%;
+  text-align: center !important;
+}
+
+.imagediv {
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "\002B";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgba(46, 97, 133, 0.36);
+}
+.quote {
+  text-align: center;
+}
+
+.info {
+  background-color: red;
+}
+
+.info:hover {
+  background-color: red;
+}
+
+.quote {
+  color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.green:hover {
+  background-color: green;
+}
+
+.footer {
+  position: relative;
+}
+.bet_time {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.6em;
+}
